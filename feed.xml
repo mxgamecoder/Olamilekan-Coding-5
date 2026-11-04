@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Olamilekan Coding</title>
+<link>https://mxgamecoder.github.io/Olamilekan-Coding-5/index.html</link>
+<description>Front-end tutorials in HTML, CSS and JavaScript, plus the Android coding apps I actually use. Free source files for every build.</description>
+<language>en</language>
+<item>
+  <title>Build a digital clock that ticks</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page11.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page11.html</guid>
+  
+  <description>A 12-hour clock with AM/PM, padded minutes and seconds, updated once per second.</description>
+</item>
+<item>
+  <title>An analog wall clock in pure CSS</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page12.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page12.html</guid>
+  
+  <description>Rotating hands driven by transform: rotate(), no canvas and no images.</description>
+</item>
+<item>
+  <title>Animated sun with CSS keyframes</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page13.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page13.html</guid>
+  
+  <description>A glowing sun that pulses and rotates using gradients and keyframe animations.</description>
+</item>
+<item>
+  <title>Login form with validation states</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page14.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page14.html</guid>
+  
+  <description>Labels, focus rings, error states and a check that runs before submit.</description>
+</item>
+<item>
+  <title>Dark mode with CSS variables</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page15.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page15.html</guid>
+  
+  <description>One toggle, two token sets, and a preference that survives a refresh.</description>
+</item>
+<item>
+  <title>Photo slider with scroll-snap</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page16.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page16.html</guid>
+  
+  <description>A swipeable gallery built on native scrolling, with dot navigation.</description>
+</item>
+<item>
+  <title>A multi-text effect with JavaScript</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page20.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page20.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Cycle a word through a timer and keep the caret blinking at the end of it.</description>
+</item>
+<item>
+  <title>A contact section that holds up on mobile</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page21.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page21.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Address, phone and email on one side, a working form on the other.</description>
+</item>
+<item>
+  <title>Putting a full landing page together</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page22.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page22.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Header, hero, content rows and footer assembled from the earlier builds.</description>
+</item>
+<item>
+  <title>Login form with a gradient button</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page23.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page23.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>The hover treatment, plus the validation people forget to add.</description>
+</item>
+<item>
+  <title>Marquee text without ruining the page</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page24.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page24.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>A scrolling banner done with transforms and paused on hover.</description>
+</item>
+<item>
+  <title>A loading bar for a game</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page25.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page25.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Progress that reaches 100% and hands over to the next screen.</description>
+</item>
+<item>
+  <title>Animating colour with keyframes</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page26.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page26.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Smooth hue shifts that stay readable and can be switched off.</description>
+</item>
+<item>
+  <title>A sliding registration form</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page27.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page27.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Move between sign in and sign up inside one panel.</description>
+</item>
+<item>
+  <title>A lamp that switches on</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page28.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page28.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>Light, glow and shadow built from one toggle.</description>
+</item>
+<item>
+  <title>Time display with zero padding</title>
+  <link>https://mxgamecoder.github.io/Olamilekan-Coding-5/page29.html</link>
+  <guid>https://mxgamecoder.github.io/Olamilekan-Coding-5/page29.html</guid>
+  <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+  <description>The formatting helpers behind a clean clock readout.</description>
+</item>
+</channel></rss>

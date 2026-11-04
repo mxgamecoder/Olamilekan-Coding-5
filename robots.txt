@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mxgamecoder.github.io/Olamilekan-Coding-5/sitemap.xml

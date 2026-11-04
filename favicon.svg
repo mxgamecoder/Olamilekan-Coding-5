@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Olamilekan Coding">
+  <rect width="64" height="64" fill="#0f1214"/>
+  <rect x="10" y="10" width="5" height="44" fill="#ff4a1c"/>
+  <path d="M24 24l-6 8 6 8M40 24l6 8-6 8" fill="none" stroke="#f1f2ef" stroke-width="4" stroke-linecap="square"/>
+  <rect x="10" y="10" width="44" height="44" fill="none" stroke="#f1f2ef" stroke-opacity=".18" stroke-width="1"/>
+</svg>
