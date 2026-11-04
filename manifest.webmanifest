@@ -1,0 +1,20 @@
+{
+  "name": "Olamilekan Coding",
+  "short_name": "Olamilekan",
+  "description": "Front-end tutorials with source files, plus the Android apps worth coding in.",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f1f2ef",
+  "theme_color": "#f1f2ef",
+  "lang": "en",
+  "categories": ["education", "developer", "productivity"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

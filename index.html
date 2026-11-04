@@ -1,345 +1,450 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Olamilekan Coding website</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-<link rel="stylesheet" href="New.css">
-<link rel="stylesheet" href="New1.css">
- <link  href="page2.html" >
-	<link rel="stylesheet" href="New2.css">
-</head>
-<body class="body">
-<!--nav bar-->
-<div class="topnav">
- <div id="myLinks">
-  <a href="#boo" class="active">Home</a>
-    <a href="#ooo" >Hot Apps</a>
-    <a href="#top">Hot Topics</a>
-    <a href="#cat" >Recent Post</a>
-    <a href="#login" >Login</a>
-    <a href="#contact">Contact</a>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-    </a>
-    </div>
-    
-    <!--clock-->
-    <div id="clock" class="cock" ></div>
-    
-    <div class="egg">
-    
-<!--darkmode-->
-<div>
- <button onclick="darkMode()" id="yu" ><h2>Light Mode</h2></button>
-</div>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olamilekan Coding — front-end tutorials, source files and tools</title>
+<meta name="description" content="Front-end tutorials in HTML, CSS and JavaScript, plus the Android coding apps I actually use. Free source files for every build.">
+<meta name="author" content="Olamilekan Ayobami">
+<link rel="canonical" href="https://mxgamecoder.github.io/Olamilekan-Coding-5/index.html">
+<meta name="theme-color" content="#f1f2ef">
+<meta name="color-scheme" content="light dark">
 
-<!--Home-->
-<div class="oem">
-  <img src="4.png" alt="logo1" class="ime">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Olamilekan Coding">
+<meta property="og:title" content="Olamilekan Coding — front-end tutorials, source files and tools">
+<meta property="og:description" content="Front-end tutorials in HTML, CSS and JavaScript, plus the Android coding apps I actually use. Free source files for every build.">
+<meta property="og:url" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/index.html">
+<meta property="og:image" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/assets/img/4.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Olamilekan Coding — front-end tutorials, source files and tools">
+<meta name="twitter:description" content="Front-end tutorials in HTML, CSS and JavaScript, plus the Android coding apps I actually use. Free source files for every build.">
+<meta name="twitter:image" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/assets/img/4.png">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/4.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Olamilekan Coding" href="feed.xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+
+<script>(function(){try{var t=localStorage.getItem("oc-theme")||"system";var d=t==="dark"||(t==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.setAttribute("data-theme",d?"dark":"light");}catch(e){}})();</script>
+<script src="assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Olamilekan Coding","url":"https://mxgamecoder.github.io/Olamilekan-Coding-5/index.html","author":{"@type":"Person","name":"Olamilekan Ayobami"},"description":"Front-end tutorials in HTML, CSS and JavaScript, plus the Android coding apps I actually use. Free source files for every build."}</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell inner">
+    <a class="brand" href="index.html"><b>Olamilekan</b><span>/</span><b>Coding</b></a>
+    <nav class="nav" aria-label="Primary">
+        <a href="#apps">Apps</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#posts">Writing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="https://github.com/mxgamecoder" target="_blank" rel="noopener me" aria-label="GitHub profile"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.79-.25.79-.55v-2.1c-3.2.7-3.88-1.4-3.88-1.4-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.7 1.27 3.36.97.1-.75.4-1.27.73-1.56-2.55-.3-5.24-1.28-5.24-5.72 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.45-2.7 5.42-5.26 5.71.41.36.78 1.05.78 2.13v3.16c0 .3.2.66.8.55A11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4" stroke-linecap="round"/></svg></button>
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-controls="drawer" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg></button>
+    </div>
   </div>
-  
-  <main id="header">
-<section class="bio" id="boo">
-<div class="bi">
-<h4>Hello Everyone</h4>
-<h1 class="s">I'm
-<div>
-<span class="text">Coder</span>
-<span class="blink"></span>
-</div>
-</h1>
-<p class="t" >Welcome To my corner of the Internet! I'm Coder, a passionate Web developer and a Blogger. 
-experience in researching, crafting dynamic and visual stunning website, my journey in the world 
-of blogging and coding has led me to unravel the potential of language like Html, Css, Javascript, 
-python, C++, Next js and beyond.</p>
-<form action="https://sheetdb.io/api/v1/chjoetngvktz6" class="form flex" id="sheetdb-form" method="post">
-<input type="email" name="data[email]" placeholder="Type your email address" class="van" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}" required="required">
-<button type="submit">Subscribe</button>
-</form>
-</div>
-</section>
+  <div class="drawer" id="drawer" data-drawer data-open="false">
+    <nav class="shell" aria-label="Mobile">
+      <ul>
+          <li><a href="#apps"><span>01</span>Apps</a></li>
+          <li><a href="#tutorials"><span>02</span>Tutorials</a></li>
+          <li><a href="#posts"><span>03</span>Writing</a></li>
+          <li><a href="#about"><span>04</span>About</a></li>
+          <li><a href="#contact"><span>05</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="shell">
+  <section class="hero">
+    <div>
+      <p class="eyebrow mono"><span class="dot" aria-hidden="true"></span>Lagos, Nigeria · open to work</p>
+      <h1>I'm Olamilekan.<br>I build <span class="rot" data-rotator data-words="interfaces|tools|blogs|side projects">interfaces</span><span class="caret" aria-hidden="true"></span></h1>
+      <p class="lede">Front-end developer and blogger. I write tutorials that end in a <strong>downloadable, working file</strong> — not a screenshot of one. Everything here is built and tested on a phone first.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="#tutorials">Browse tutorials <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn--ghost" href="#apps">The apps I use</a>
+      </div>
+      <ul class="stats">
+        <li><b>16</b><span>Tutorials</span></li>
+        <li><b>06</b><span>Apps reviewed</span></li>
+        <li><b>3+</b><span>Years building</span></li>
+      </ul>
+    </div>
+    <div class="code-window" data-reveal>
+      <div class="code-bar">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="file">about.js</span>
+        <button class="copy" type="button" data-copy="// about.js — what this site is built with
+const coder = {
+  name: &quot;Olamilekan&quot;,
+  role: &quot;front-end developer&quot;,
+  base: &quot;Lagos, Nigeria&quot;,
+  stack: [&quot;HTML&quot;, &quot;CSS&quot;, &quot;JavaScript&quot;, &quot;Next.js&quot;],
+  writes: &quot;tutorials with source files&quot;,
+  since: 2023,
+};
 
-<!--hot topic-->
-<section id="ooo" class="put bi flex" >
-<div id="otp">
-<center><h3 class="ot">Hot Apps</h3></center>
-<p class="to">Don't Miss Out On The Latest News About Coding, Programming, Hacking And So On...</p>
-</div>
+export function build(idea) {
+  return ship(idea, { fast: true, simple: true });
+}">copy</button>
+      </div>
+      <pre><code><span class="tok-com">// about.js — what this site is built with</span>
+<span class="tok-key">const</span> coder = {
+  name: <span class="tok-str">&quot;Olamilekan&quot;</span>,
+  role: <span class="tok-str">&quot;front-end developer&quot;</span>,
+  base: <span class="tok-str">&quot;Lagos, Nigeria&quot;</span>,
+  stack: [<span class="tok-str">&quot;HTML&quot;</span>, <span class="tok-str">&quot;CSS&quot;</span>, <span class="tok-str">&quot;JavaScript&quot;</span>, <span class="tok-str">&quot;Next.js&quot;</span>],
+  writes: <span class="tok-str">&quot;tutorials with source files&quot;</span>,
+  since: <span class="tok-num">2023</span>,
+};
 
-	  <center>  <div class="image-slideshow">
+<span class="tok-key">export</span> <span class="tok-key">function</span> <span class="tok-fn">build</span>(idea) {
+  <span class="tok-key">return</span> <span class="tok-fn">ship</span>(idea, { fast: true, simple: true });
+}</code></pre>
+      <div class="code-foot"><i aria-hidden="true"></i>last deploy · this build</div>
+    </div>
+  </section>
 
-      <div class="image fade">
-      <a href="page7.html" class="you">
-      <img src="2.jpg" alt="cards" class="car">
-      <div class="dea">
-      <h4 class="dd">App For Coding</h4>
-      <p class="rate">Rate 4.3</p>
-      <p class="rate" >Code Studio</p>
-      </div>
-      </a>
-      </div>
-		  
-      <div class="image fade">
-      <a href="page.html" class="you">
-      <img src="7.jpg" alt="cards" class="car">
-      <div class="dea">
-      <h4 class="dd">App For Coding</h4>
-      <p class="rate1">Rate 4.3</p>
-      <p class="rate1" >Instant Website Builder App</p>
-      </div>
-      </a>
-      </div>
-		  
-      <div class="image fade">
-       <a href="page3.html" class="you">
-       <img src="6.jpg" alt="cards" class="car">
-       <div class="dea">
-       <h4 class="dd">App For Coding</h4>
-       <p class="rate2">Rate 4.0</p>
-       <p class="rate2" >Coding python</p>
-       </div>
-       </a>
-      </div>
-      
-      <div class="image fade">
-      <a href="page4.html" class="you">
-      <img src="5.jpg" alt="cards" class="car">
-      <div class="dea">
-      <h4 class="dd">App For Coding</h4>
-      <p class="rate3">Rate 4.5</p>
-      <p class="rate3" >Coding C++</p>
-      </div>
-      </a>
-      </div>
-      
-      <div class="image fade">
-      <a href="page5.html" class="you">
-      <img src="9.jpg" alt="cards" class="car">
-      <div class="dea">
-      <h4 class="dd">App For Coding</h4>
-      <p class="rate4">Rate 4.4</p>
-      <p class="rate4" >pydroid3</p>
-      </div>
-      </a>
-      </div>
-      
-      <div class="image fade">
-      <a href="page6.html" class="you">
-      <img src="8.jpg" alt="cards" class="car">
-      <div class="dea">
-      <h4 class="dd">App For Coding</h4>
-      <p class="rate5">Rate 4.5</p>
-      <p class="rate5">Cxxdroid</p>
-      </div>
-      </a>
-      </div>
-    </div></center>
-</section>
+  <section class="section" id="apps">
+    <div class="section-head">
+      <span class="idx">02 / apps</span>
+      <h2>The Android apps I actually code in</h2>
+      <p class="note">Six editors and IDEs that survived real use — offline builds, small screens, no laptop. Ratings are from the Play Store.</p>
+    </div>
+    <ul class="app-list">
+        <li>
+          <a class="app-row" href="page7.html" data-reveal>
+            <span class="idx">01</span>
+            <span class="shot"><img src="assets/img/2.jpg" alt="Code Studio app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Code Studio</h3>
+              <span class="desc">Android IDE for quick HTML/CSS/JS edits</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:86%"></i></span>4.3</span>
+                <span class="tag">Editor</span><span class="tag">HTML</span><span class="tag">Free</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="app-row" href="page.html" data-reveal>
+            <span class="idx">02</span>
+            <span class="shot"><img src="assets/img/7.jpg" alt="Instant Website Builder app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Instant Website Builder</h3>
+              <span class="desc">Drag-and-drop site builder, no code</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:86%"></i></span>4.3</span>
+                <span class="tag">No-code</span><span class="tag">Hosting</span><span class="tag">Free</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="app-row" href="page3.html" data-reveal>
+            <span class="idx">03</span>
+            <span class="shot"><img src="assets/img/6.jpg" alt="Coding Python app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Coding Python</h3>
+              <span class="desc">Python 3 interpreter with syntax highlighting</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:80%"></i></span>4.0</span>
+                <span class="tag">Python</span><span class="tag">Offline</span><span class="tag">Free</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="app-row" href="page4.html" data-reveal>
+            <span class="idx">04</span>
+            <span class="shot"><img src="assets/img/5.jpg" alt="Coding C++ app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Coding C++</h3>
+              <span class="desc">C++ compiler and editor in one app</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:90%"></i></span>4.5</span>
+                <span class="tag">C++</span><span class="tag">Compiler</span><span class="tag">Free</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="app-row" href="page5.html" data-reveal>
+            <span class="idx">05</span>
+            <span class="shot"><img src="assets/img/9.jpg" alt="Pydroid 3 app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Pydroid 3</h3>
+              <span class="desc">Full Python IDE with pip and libraries</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:88%"></i></span>4.4</span>
+                <span class="tag">Python</span><span class="tag">pip</span><span class="tag">Freemium</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="app-row" href="page6.html" data-reveal>
+            <span class="idx">06</span>
+            <span class="shot"><img src="assets/img/8.jpg" alt="Cxxdroid app screenshot" width="116" height="73" loading="lazy" decoding="async"></span>
+            <span>
+              <h3>Cxxdroid</h3>
+              <span class="desc">Offline C and C++ IDE</span>
+              <span class="app-meta">
+                <span class="rating"><span class="meter"><i style="width:90%"></i></span>4.5</span>
+                <span class="tag">C</span><span class="tag">C++</span><span class="tag">Offline</span>
+              </span>
+            </span>
+            <span class="row-go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+    </ul>
+  </section>
 
-<!--Hot topics-->
-<section id="top">
-<div class="haha">
-<center><h3 class="ate">Hot Topics</h3></center></div>
-	<div class="BBC">
-<div class="gallery-container"> 
-<div class="thumbnails"></div> 
-<div class="slides"> 
-<div><a href="page11.html" class="yo">
-     <img src="12.jpg" alt="cards" class="tcar">
-    <center> <h4 class="ddt">How to code a time</h4></center>
-     </a></div>
-<div>
-<a href="page12.html" class="yo">
-      <img src="13.jpg" alt="cards" class="car">
-     <center> <h4 class="deed">How to code wall clock</h4></center>
-      </a>
-</div> 
-<div>
-<a href="page13.html" class="yo">
-      <img src="14.jpg" alt="cards" class="car" 
-      width="200px" >
-      <center><h4 class="ddy">How to code animate sun</h4></center>
-      </a>
-</div> 
-<div>
-<a href="page14.html" class="yo">
-     <img src="11.jpg" alt="cards" class="car">
-     <center><h4 class="ddf">How to code a login form</h4></center>
-     </a>
-</div> 
-<div>
-<a href="page15.html" class="yo">
-      <img src="10.jpg" alt="cards" class="car" 
-      width="200px" >
-      <center><h4 class="drd">How to code a dark mode</h4></center>
-      </a>
-</div> 
-<div>
-<a href="page16.html" class="yo">
-      <img src="5.jpg" alt="cards" class="car" 
-      width="200px" >
-      <center><h4 class="dro">How to code a pic slider</h4></center>
-      </a>
-</div>
-</div> </div> </div>
-</section>
-	  <br>
+  <section class="section" id="tutorials">
+    <div class="section-head">
+      <span class="idx">03 / tutorials</span>
+      <h2>Build it once, keep the source</h2>
+      <p class="note">Short, self-contained builds. Every tutorial links to the files, so you can open them, break them and put them back together.</p>
+    </div>
+    <div class="tut-grid">
+        <a class="tut" href="page11.html" data-reveal>
+          <span class="shot"><img src="assets/img/12.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">HTML · CSS · JS</span><span class="mono">6 min</span></span>
+            <h3>Build a digital clock that ticks</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+        <a class="tut" href="page12.html" data-reveal>
+          <span class="shot"><img src="assets/img/13.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">CSS · JS</span><span class="mono">7 min</span></span>
+            <h3>An analog wall clock in pure CSS</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+        <a class="tut" href="page13.html" data-reveal>
+          <span class="shot"><img src="assets/img/14.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">CSS · Animation</span><span class="mono">5 min</span></span>
+            <h3>Animated sun with CSS keyframes</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+        <a class="tut" href="page14.html" data-reveal>
+          <span class="shot"><img src="assets/img/11.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">HTML · CSS · JS</span><span class="mono">8 min</span></span>
+            <h3>Login form with validation states</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+        <a class="tut" href="page15.html" data-reveal>
+          <span class="shot"><img src="assets/img/10.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">CSS · JS</span><span class="mono">6 min</span></span>
+            <h3>Dark mode with CSS variables</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+        <a class="tut" href="page16.html" data-reveal>
+          <span class="shot"><img src="assets/img/5.jpg" alt="" width="400" height="300" loading="lazy" decoding="async"></span>
+          <span class="body">
+            <span class="kicker"><span class="mono">CSS · JS</span><span class="mono">7 min</span></span>
+            <h3>Photo slider with scroll-snap</h3>
+            <span class="foot">Read tutorial <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </span>
+        </a>
+    </div>
+  </section>
 
-<!--catogries-->
-<section id="cat">
-<center><h3 class="Kate">Recent Post</h3></center>
-	<div class="zxz">
-<a href="page20.html" class="am" ><img src="A.jpg" alt="rrr" width="200px">
-<p class="io" >How to create a multi text using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page21.html" class="am" ><img src="B.jpg" alt="rrr" width="200px">
-<p class="io">How to create a Contact form using html and css</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page22.html" class="am" ><img src="C.jpg" alt="rrr" width="200px">
-<p class="io">How to create a website using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page23.html" class="am" ><img src="D.jpg" alt="rrr" width="200px">
-<p class="io">How to code a login form using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page24.html" class="am" ><img src="E.jpg" alt="rrr" width="200px">
-<p class="io">How to create a marquee using html and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page25.html" class="am" ><img src="F.jpg" alt="rrr" width="200px">
-<p class="io">How to create a loading bar for game using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page26.html" class="am" ><img src="G.jpg" alt="rrr" width="200px">
-<p class="io">How to create a slide registration form using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page27.html" class="am" ><img src="H.jpg" alt="rrr" width="200px">
-<p class="io">How to animate a color using html and css</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page28.html" class="am" ><img src="I.jpg" alt="rrr" width="200px">
-<p class="io">How to create light a with html and css</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a>
-<br><br><br><br><br>
-<a href="page29.html" class="am" ><img src="J.jpg" alt="rrr" width="200px">
-<p class="io">How to create Time using html css and javascript</p>
-<time datetime="2023-11-26 10:00">Nov 26 2023</time>
-</a><br><br><br><br><br>
-</div>
-</section>
-<!--login-->
-<section id="login">
-<div class="key">
-<center><h3 class="log">Login</h3>
-<button class="buy" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-<div class="wrapper">
-      <div class="title-text">
-        <div class="title login">Login Form</div>
+  <section class="section" id="posts">
+    <div class="section-head">
+      <span class="idx">04 / writing</span>
+      <h2>Notes from the editor</h2>
+      <p class="note">Smaller pieces: one effect, one problem, one fix. Written while building the things above.</p>
+    </div>
+    <ul class="ledger">
+        <li>
+          <a href="page20.html">
+            <span class="num">01</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">A multi-text effect with JavaScript</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page21.html">
+            <span class="num">02</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">A contact section that holds up on mobile</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page22.html">
+            <span class="num">03</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">Putting a full landing page together</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page23.html">
+            <span class="num">04</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">Login form with a gradient button</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page24.html">
+            <span class="num">05</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">Marquee text without ruining the page</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page25.html">
+            <span class="num">06</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">A loading bar for a game</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page26.html">
+            <span class="num">07</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">Animating colour with keyframes</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page27.html">
+            <span class="num">08</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">A sliding registration form</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page28.html">
+            <span class="num">09</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">A lamp that switches on</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a href="page29.html">
+            <span class="num">10</span>
+            <time datetime="2023-11-26">26 Nov 2023</time>
+            <span class="t">Time display with zero padding</span>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </li>
+    </ul>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="idx">05 / about</span>
+      <h2>A phone, a text editor and too many tabs</h2>
+    </div>
+    <div class="contact">
+      <div class="prose prose-sm">
+        <p>I started this site in 2023 to keep my own notes in one place. It turned into a tutorial archive: the clock, the slider, the dark-mode toggle — each one written up with the code that made it work.</p>
+        <p>Most of it was written on Android, between classes, in editors that crash more than they should. That is why the downloads matter and why every demo stays small.</p>
+        <p>If a tutorial helped, tell me which one. If one broke, tell me faster.</p>
       </div>
-      <div class="form-container">
-        <div class="form-inner">
-          <form action="https://sheetdb.io/api/v1/chjoetngvktz6" class="login" method="post" id="sheetdb-form" name="f1" >
-            <pre>
-            </pre>
-            <div class="field">
-            <input type="name" placeholder="Username Name" name="data[name]" pattern="[A-Za-z0-9\-_\.]{6,20}" required>
-            </div>
-            <div class="field">
-              <input type="email" placeholder="Email Address" name="data[email]" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}" required>
-            </div>
-            <div class="field">
-<input type="password" placeholder="Enter Password" id="password"  name="data[psw]" required="required" >
-<span id="result"/>
-            </div>
-            <div class="field bot">
-              <div class="bot-layer"></div>
-              <input type="submit" value="Login" onclick="passcheck()">
-            </div>
-          </form>
-        </div>
+      <div>
+        <ul class="contact-list">
+          <li><span class="k">Email</span><a class="link" href="mailto:ayobamiolamilekan704@gmail.com">ayobamiolamilekan704@gmail.com</a></li>
+          <li><span class="k">Phone</span><span>+234 902 150 6036</span></li>
+          <li><span class="k">GitHub</span><a class="link" href="https://github.com/mxgamecoder" target="_blank" rel="noopener me">@mxgamecoder</a></li>
+          <li><span class="k">Based</span><span>Lagos, Nigeria</span></li>
+        </ul>
       </div>
     </div>
+  </section>
+
+  <section class="band" id="subscribe">
+    <div>
+      <h2>One new build in your inbox</h2>
+      <p>When a tutorial ships, you get the link and the source file. No course funnel, no weekly newsletter you never asked for.</p>
     </div>
-    </center>
-    </div>
-</section>
-<br><br>
-<!--contact-->
-<section id="contact">
-<div class="are">
-<center><h3 class="vaf">Contact</h3></center>
-<div class="container2">
-      <div class="content">
-        <div class="left-side">
-          <div class="address details">
-            <i class="fas fa-map-marker-alt"></i>
-            <div class="topic">Address</div>
-            <div class="text-one">lekki, face1</div>
-            <div class="text-two">Birendranagar 06</div>
-          </div>
-          <div class="phone details">
-            <i class="fas fa-phone-alt"></i>
-            <div class="topic">Phone</div>
-            <div class="text-one">+2349021506036</div>
-            <div class="text-two">+2349033453097</div>
-          </div>
-          <div class="email details">
-            <i class="fas fa-envelope"></i>
-            <div class="topic">Email</div>
-            <div class="text-one">ayobamiolamilekan704@gmail.com</div>
-            <div class="text-two">damilaraolamilekan@gmail.com</div>
-          </div>
-        </div>
-        <div class="right-side">
-          <div class="topic-text">Send us a message</div>
-          <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-          <form action="#">
-            <div class="input-box">
-              <input type="text" placeholder="Enter your name" class="input" id="name" required="required">
-            </div>
-            <div class="input-box">
-              <input type="email" placeholder="someone@gmail.com" class="input" id="email" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}" required="required">
-            </div>
-            <div class="input-box message-box">
-              <textarea placeholder="Enter your message" id="message" ></textarea>
-            </div>
-            <div class="button">
-              <input type="button" value="Send Now" id="btn" />
-            </div>
-          </form>
-        </div>
+    <form class="sub-form" data-subscribe action="https://sheetdb.io/api/v1/chjoetngvktz6" data-fallback="ayobamiolamilekan704@gmail.com">
+      <div class="field-row">
+        <label class="sr-only" for="sub-email">Email address</label>
+        <input id="sub-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+        <button class="btn btn--primary" type="submit">Subscribe <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
+      <p class="form-status" data-status role="status" aria-live="polite">No spam. Unsubscribe whenever.</p>
+    </form>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="section-head">
+      <span class="idx">06 / contact</span>
+      <h2>Say something</h2>
+      <p class="note">Work, a question about a tutorial, or a bug in one of the demos. This form opens your mail app — nothing is sent through a third party.</p>
     </div>
-    </div>
-</section>
-	  <br><br><br>
-<footer>
-<p class="rat" >Olamilekan Coding, Copyright &copy; 2023</p>
-</footer>
+    <form class="form-grid" data-contact data-to="ayobamiolamilekan704@gmail.com">
+      <div class="field">
+        <label for="c-name">Your name</label>
+        <input id="c-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="c-email">Email</label>
+        <input id="c-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="c-message">Message</label>
+        <textarea id="c-message" name="message" rows="5" required></textarea>
+      </div>
+      <button class="btn btn--primary" type="submit">Open mail app <svg class="arw" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <p class="form-status" data-status role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</div>
 </main>
-</div>
-<a href="#" class="topo">Back to Top &#8593;</a>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="New.js"></script>
-	<script src="New2.js"></script>
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="brand" href="index.html"><b>Olamilekan</b><span>/</span><b>Coding</b></a>
+      <p>Tutorials, source files and the tools I use to build on a phone. Written by Olamilekan Ayobami, Lagos.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html#apps">Apps</a></li>
+      <li><a href="index.html#tutorials">Tutorials</a></li>
+      <li><a href="index.html#posts">Writing</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="https://github.com/mxgamecoder" target="_blank" rel="noopener me">GitHub</a></li>
+      <li><a href="feed.xml">RSS</a></li>
+    </ul>
+  </div>
+  <div class="shell footer-bottom">
+    <span class="mono">© <span data-year>2026</span> Olamilekan Ayobami</span>
+    <span class="mono">Built by hand · HTML · CSS · JS</span>
+  </div>
+</footer>
 </body>
 </html>

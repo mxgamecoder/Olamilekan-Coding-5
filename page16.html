@@ -1,58 +1,159 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Code Studio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-<link rel="stylesheet" href="Newss.css">
-<link rel="stylesheet" href="T.css">
-</head>
-<body>
-   <center> <a href="index.html" id="faf" >Back Home</a> </center>
-   
-   <center><img src="5.jpg" alt="cards" class="table" 
-   width="200px" >
-   <h4 class="ry">How to code a picture slider</h4>
-   </center>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo slider with scroll-snap — Olamilekan Coding</title>
+<meta name="description" content="A swipeable gallery built on native scrolling, with dot navigation.">
+<meta name="author" content="Olamilekan Ayobami">
+<link rel="canonical" href="https://mxgamecoder.github.io/Olamilekan-Coding-5/page16.html">
+<meta name="theme-color" content="#f1f2ef">
+<meta name="color-scheme" content="light dark">
 
-<div class="download-container">
-      <a href="#" class="download-btn">Download Files <i class="fas fa-download"></i></a>
-      <div class="countdown"></div>
-      <div class="pleaseWait-text">Please wait..</div>
-      <div class="manualDownload-text">
-        If the download didn't start automatically, <a href="" class="manualDownload-link">click here.</a>
-      </div>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Olamilekan Coding">
+<meta property="og:title" content="Photo slider with scroll-snap — Olamilekan Coding">
+<meta property="og:description" content="A swipeable gallery built on native scrolling, with dot navigation.">
+<meta property="og:url" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/page16.html">
+<meta property="og:image" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/assets/img/5.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Photo slider with scroll-snap — Olamilekan Coding">
+<meta name="twitter:description" content="A swipeable gallery built on native scrolling, with dot navigation.">
+<meta name="twitter:image" content="https://mxgamecoder.github.io/Olamilekan-Coding-5/assets/img/5.jpg">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/4.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Olamilekan Coding" href="feed.xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+
+<script>(function(){try{var t=localStorage.getItem("oc-theme")||"system";var d=t==="dark"||(t==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.setAttribute("data-theme",d?"dark":"light");}catch(e){}})();</script>
+<script src="assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Photo slider with scroll-snap","description":"A swipeable gallery built on native scrolling, with dot navigation.","image":"https://mxgamecoder.github.io/Olamilekan-Coding-5/assets/img/5.jpg","author":{"@type":"Person","name":"Olamilekan Ayobami"},"publisher":{"@type":"Organization","name":"Olamilekan Coding"},"mainEntityOfPage":"https://mxgamecoder.github.io/Olamilekan-Coding-5/page16.html"}</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell inner">
+    <a class="brand" href="index.html"><b>Olamilekan</b><span>/</span><b>Coding</b></a>
+    <nav class="nav" aria-label="Primary">
+        <a href="index.html#apps">Apps</a>
+        <a href="index.html#tutorials">Tutorials</a>
+        <a href="index.html#posts">Writing</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="https://github.com/mxgamecoder" target="_blank" rel="noopener me" aria-label="GitHub profile"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.79-.25.79-.55v-2.1c-3.2.7-3.88-1.4-3.88-1.4-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.7 1.27 3.36.97.1-.75.4-1.27.73-1.56-2.55-.3-5.24-1.28-5.24-5.72 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.45-2.7 5.42-5.26 5.71.41.36.78 1.05.78 2.13v3.16c0 .3.2.66.8.55A11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4" stroke-linecap="round"/></svg></button>
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-controls="drawer" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg></button>
     </div>
-    
-    <script>
-    const downloadBtn = document.querySelector(".download-btn");
-    const countdown = document.querySelector(".countdown");
-    const pleaseWaitText = document.querySelector(".pleaseWait-text");
-    const manualDownloadText = document.querySelector(".manualDownload-text");
-    const manualDownloadLink = document.querySelector(".manualDownload-link");
-    var timeLeft = 10;
-    
-    downloadBtn.addEventListener("click", () => {
-    downloadBtn.style.display = "none";
-    countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds."; //for quick start of countdown
-    
-    var downloadTimer = setInterval(function timeCount(){
-    timeLeft -= 1;
-    countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds.";
-    
-    if(timeLeft <= 0){
-    clearInterval(downloadTimer);
-    pleaseWaitText.style.display = "block";
-    let download_href = "https://drive.google.com/file/d/1ItHPNViU1hAQyhp3CePRCrvpnL3ecQK8/view?usp=drivesdk"; //enter the downloadable file link URL here
-    window.location.href = download_href;
-    manualDownloadLink.href = download_href;
-    
-    setTimeout(() => {
-    pleaseWaitText.style.display = "none";
-    manualDownloadText.style.display = "block";
-    }, 4000);
-    }
-    }, 1000);
-    });
-    </script>
+  </div>
+  <div class="drawer" id="drawer" data-drawer data-open="false">
+    <nav class="shell" aria-label="Mobile">
+      <ul>
+          <li><a href="index.html#apps"><span>01</span>Apps</a></li>
+          <li><a href="index.html#tutorials"><span>02</span>Tutorials</a></li>
+          <li><a href="index.html#posts"><span>03</span>Writing</a></li>
+          <li><a href="index.html#about"><span>04</span>About</a></li>
+          <li><a href="index.html#contact"><span>05</span>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article>
+  <header class="page-head shell">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span>
+      <a href="index.html#tutorials">Tutorials</a><span aria-hidden="true">/</span>
+      <span class="mono current">CSS</span>
+    </nav>
+    <h1>Photo slider with scroll-snap</h1>
+    <div class="page-meta">
+      <span class="mono">CSS · JS</span>
+      <span class="mono">Intermediate</span>
+      <span class="mono">7 min read</span>
+      
+    </div>
+    <figure class="cover">
+      <img src="assets/img/5.jpg" alt="Preview of Photo slider with scroll-snap" width="1200" height="675" fetchpriority="high" decoding="async">
+    </figure>
+    <div class="cover-cap mono"><span>fig. 01 — the finished build</span><span>html · css · js</span></div>
+  </header>
+
+  <div class="article-body shell">
+    <div class="prose">
+      <p class="prose-intro">A swipeable gallery built on native scrolling, with dot navigation.</p>
+      <p>No slider library needed. Scroll-snap gives you the swipe physics, and the only JavaScript is keeping the dots in sync with the scroll position.</p>
+      <h2>What you'll build</h2>
+      <ul>
+        <li>Horizontal track with scroll-snap-type</li>
+        <li>Each slide snapping to the start edge</li>
+        <li>Dots that read the scroll offset</li>
+        <li>Arrow keys and buttons for people without touch</li>
+      </ul>
+      <h2>Files in the download</h2>
+      <ul>
+        <li><code>index.html</code></li>
+        <li><code>style.css</code></li>
+        <li><code>script.js</code></li>
+      </ul>
+      <h2>Before you start</h2>
+      <p>You need a text editor and a browser — that's it. No package manager, no build step, no framework. Open <code>index.html</code> and the demo runs.</p>
+      <p>If you change something and it breaks, open the browser console first. Nine times out of ten the answer is a typo in a selector or a variable used before it exists.</p>
+    </div>
+    <aside class="aside">
+      <div class="panel">
+        <h2>Source files</h2>
+        <a class="btn btn--primary" href="https://drive.google.com/file/d/1ItHPNViU1hAQyhp3CePRCrvpnL3ecQK8/view" target="_blank" rel="noopener">Open download <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12l8-8M6 4h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <p class="note-line">Google Drive · free · opens in a new tab</p>
+      </div>
+      <div class="panel">
+        <h2>In this build</h2>
+        <ul>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Intermediate level</li>
+          <li>~7 minutes</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>Stuck?</h2>
+        <p>Send the error text and the file you're editing. I answer these first.</p>
+        <a class="btn btn--ghost panel-btn" href="mailto:ayobamiolamilekan704@gmail.com">Email me</a>
+      </div>
+    </aside>
+  </div>
+
+  <nav class="pager shell" aria-label="More tutorials">
+    <a href="page15.html"><span class="dir">← Previous</span><span class="t">Dark mode with CSS variables</span></a>
+    <a class="next" href="index.html#posts"><span class="dir">Next →</span><span class="t">More writing</span></a>
+  </nav>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="brand" href="index.html"><b>Olamilekan</b><span>/</span><b>Coding</b></a>
+      <p>Tutorials, source files and the tools I use to build on a phone. Written by Olamilekan Ayobami, Lagos.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html#apps">Apps</a></li>
+      <li><a href="index.html#tutorials">Tutorials</a></li>
+      <li><a href="index.html#posts">Writing</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="https://github.com/mxgamecoder" target="_blank" rel="noopener me">GitHub</a></li>
+      <li><a href="feed.xml">RSS</a></li>
+    </ul>
+  </div>
+  <div class="shell footer-bottom">
+    <span class="mono">© <span data-year>2026</span> Olamilekan Ayobami</span>
+    <span class="mono">Built by hand · HTML · CSS · JS</span>
+  </div>
+</footer>
 </body>
 </html>
